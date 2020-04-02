@@ -13,7 +13,9 @@
 		528E93C2242FBFE500E6F1F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528E93C0242FBFE500E6F1F3 /* Main.storyboard */; };
 		528E93C4242FBFE600E6F1F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528E93C3242FBFE600E6F1F3 /* Assets.xcassets */; };
 		528E93C7242FBFE600E6F1F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528E93C5242FBFE600E6F1F3 /* LaunchScreen.storyboard */; };
-		528E93D2242FBFE600E6F1F3 /* Swift_challengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93D1242FBFE600E6F1F3 /* Swift_challengesTests.swift */; };
+		528E93DD242FC01200E6F1F3 /* StringsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93DC242FC01200E6F1F3 /* StringsTests.swift */; };
+		528E93DF242FC03900E6F1F3 /* StringsChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93DE242FC03900E6F1F3 /* StringsChallenges.swift */; };
+		528E93E1242FDFFD00E6F1F3 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93E0242FDFFD00E6F1F3 /* String + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,10 @@
 		528E93C6242FBFE600E6F1F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528E93C8242FBFE600E6F1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528E93CD242FBFE600E6F1F3 /* Swift challengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift challengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		528E93D1242FBFE600E6F1F3 /* Swift_challengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_challengesTests.swift; sourceTree = "<group>"; };
 		528E93D3242FBFE600E6F1F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528E93DC242FC01200E6F1F3 /* StringsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsTests.swift; sourceTree = "<group>"; };
+		528E93DE242FC03900E6F1F3 /* StringsChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsChallenges.swift; sourceTree = "<group>"; };
+		528E93E0242FDFFD00E6F1F3 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				528E93BA242FBFE500E6F1F3 /* AppDelegate.swift */,
 				528E93BC242FBFE500E6F1F3 /* SceneDelegate.swift */,
 				528E93BE242FBFE500E6F1F3 /* ViewController.swift */,
+				528E93DE242FC03900E6F1F3 /* StringsChallenges.swift */,
+				528E93E0242FDFFD00E6F1F3 /* String + Extension.swift */,
 				528E93C0242FBFE500E6F1F3 /* Main.storyboard */,
 				528E93C3242FBFE600E6F1F3 /* Assets.xcassets */,
 				528E93C5242FBFE600E6F1F3 /* LaunchScreen.storyboard */,
@@ -93,7 +99,7 @@
 		528E93D0242FBFE600E6F1F3 /* Swift challengesTests */ = {
 			isa = PBXGroup;
 			children = (
-				528E93D1242FBFE600E6F1F3 /* Swift_challengesTests.swift */,
+				528E93DC242FC01200E6F1F3 /* StringsTests.swift */,
 				528E93D3242FBFE600E6F1F3 /* Info.plist */,
 			);
 			path = "Swift challengesTests";
@@ -202,6 +208,8 @@
 			files = (
 				528E93BF242FBFE500E6F1F3 /* ViewController.swift in Sources */,
 				528E93BB242FBFE500E6F1F3 /* AppDelegate.swift in Sources */,
+				528E93E1242FDFFD00E6F1F3 /* String + Extension.swift in Sources */,
+				528E93DF242FC03900E6F1F3 /* StringsChallenges.swift in Sources */,
 				528E93BD242FBFE500E6F1F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528E93D2242FBFE600E6F1F3 /* Swift_challengesTests.swift in Sources */,
+				528E93DD242FC01200E6F1F3 /* StringsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
