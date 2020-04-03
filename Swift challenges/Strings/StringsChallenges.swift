@@ -200,6 +200,7 @@ public final class StringsChallenges {
         }
     }
     
+    // Method to get a string with each of it's words reversed
     public static func challenge15(input: String) -> String {
         let words = input.components(separatedBy: " ")
     
