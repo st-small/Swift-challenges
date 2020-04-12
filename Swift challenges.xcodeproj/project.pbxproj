@@ -16,6 +16,9 @@
 		5285B72C2437C2F900E10415 /* CollectionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B72B2437C2F900E10415 /* CollectionsTest.swift */; };
 		5285B72E2438C55100E10415 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B72D2438C55100E10415 /* LinkedListNode.swift */; };
 		5285B7302438D13600E10415 /* Deque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B72F2438D13600E10415 /* Deque.swift */; };
+		5285B754243A629500E10415 /* AlgorithmsChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B753243A629500E10415 /* AlgorithmsChallenges.swift */; };
+		5285B756243A62C200E10415 /* Array + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B755243A62C200E10415 /* Array + Extension.swift */; };
+		5285B758243A65AB00E10415 /* AlgorithmsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B757243A65AB00E10415 /* AlgorithmsTest.swift */; };
 		528E93BB242FBFE500E6F1F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93BA242FBFE500E6F1F3 /* AppDelegate.swift */; };
 		528E93BD242FBFE500E6F1F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93BC242FBFE500E6F1F3 /* SceneDelegate.swift */; };
 		528E93BF242FBFE500E6F1F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528E93BE242FBFE500E6F1F3 /* ViewController.swift */; };
@@ -47,6 +50,9 @@
 		5285B72B2437C2F900E10415 /* CollectionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsTest.swift; sourceTree = "<group>"; };
 		5285B72D2438C55100E10415 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
 		5285B72F2438D13600E10415 /* Deque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deque.swift; sourceTree = "<group>"; };
+		5285B753243A629500E10415 /* AlgorithmsChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsChallenges.swift; sourceTree = "<group>"; };
+		5285B755243A62C200E10415 /* Array + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + Extension.swift"; sourceTree = "<group>"; };
+		5285B757243A65AB00E10415 /* AlgorithmsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTest.swift; sourceTree = "<group>"; };
 		528E93B7242FBFE500E6F1F3 /* Swift challenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift challenges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528E93BA242FBFE500E6F1F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528E93BC242FBFE500E6F1F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +137,15 @@
 			path = Colletions;
 			sourceTree = "<group>";
 		};
+		5285B752243A626800E10415 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5285B753243A629500E10415 /* AlgorithmsChallenges.swift */,
+				5285B755243A62C200E10415 /* Array + Extension.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
 		528E93AE242FBFE500E6F1F3 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +167,7 @@
 		528E93B9242FBFE500E6F1F3 /* Swift challenges */ = {
 			isa = PBXGroup;
 			children = (
+				5285B752243A626800E10415 /* Algorithms */,
 				5285B71C24363F9C00E10415 /* Environment */,
 				5285B7262437A5B600E10415 /* Colletions */,
 				5285B7212437942600E10415 /* Files */,
@@ -167,6 +183,7 @@
 				528E93DC242FC01200E6F1F3 /* StringsTests.swift */,
 				5285B71F2436493500E10415 /* NumbersTests.swift */,
 				5285B72B2437C2F900E10415 /* CollectionsTest.swift */,
+				5285B757243A65AB00E10415 /* AlgorithmsTest.swift */,
 				528E93D3242FBFE600E6F1F3 /* Info.plist */,
 			);
 			path = "Swift challengesTests";
@@ -276,6 +293,7 @@
 				5285B72E2438C55100E10415 /* LinkedListNode.swift in Sources */,
 				528E93BF242FBFE500E6F1F3 /* ViewController.swift in Sources */,
 				5285B7302438D13600E10415 /* Deque.swift in Sources */,
+				5285B756243A62C200E10415 /* Array + Extension.swift in Sources */,
 				5285B7232437943A00E10415 /* FilesChallenges.swift in Sources */,
 				528E93BB242FBFE500E6F1F3 /* AppDelegate.swift in Sources */,
 				5285B71E24363FC900E10415 /* NumbersChallenges.swift in Sources */,
@@ -285,6 +303,7 @@
 				528E93DF242FC03900E6F1F3 /* StringsChallenges.swift in Sources */,
 				528E93BD242FBFE500E6F1F3 /* SceneDelegate.swift in Sources */,
 				5285B7252437A3CF00E10415 /* ChunkedFileReader.swift in Sources */,
+				5285B754243A629500E10415 /* AlgorithmsChallenges.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5285B7202436493500E10415 /* NumbersTests.swift in Sources */,
+				5285B758243A65AB00E10415 /* AlgorithmsTest.swift in Sources */,
 				528E93DD242FC01200E6F1F3 /* StringsTests.swift in Sources */,
 				5285B72C2437C2F900E10415 /* CollectionsTest.swift in Sources */,
 			);
